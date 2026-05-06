@@ -1,6 +1,6 @@
 {
-  "short_name": "使用量查询",
-  "name": "使用量查询",
+  "short_name": "youragent 查询",
+  "name": "youragent 额度查询",
   "icons": [
     {
       "src": "favicon.ico",
