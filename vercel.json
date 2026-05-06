@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-agent.cc/api/:path*"
+      "destination": "https://new.your-agent.cc/api/:path*"
     }
   ]
 }
