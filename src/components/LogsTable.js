@@ -94,7 +94,7 @@ const LogsTable = () => {
                     headers: { Authorization: `Bearer ${apikey}` },
                 });
                 const usageData = usageRes.data;
-                if (usageData.code) {
+                if (usageData.success) {
                     const d = usageData.data;
                     newTabData.unlimitedQuota = d.unlimited_quota;
                     newTabData.totalGranted = d.total_granted;
